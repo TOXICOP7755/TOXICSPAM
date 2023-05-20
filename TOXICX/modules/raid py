@@ -20,10 +20,10 @@ que = {}
 async def spam(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗥𝗮𝗶𝗱\n  » {hl}raid <count> <Username of User>\n  » {hl}raid <count> <reply to a User>"
     if e.sender_id in SUDO_USERS:
-        TXraid = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        txraid = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
 
-        if len(TXraid) == 2:
-            message = str(TXraid[1])
+        if len(txraid) == 2:
+            message = str(txraid[1])
             a = await e.client.get_entity(message)
             g = a.id
             if int(g) in TOXIC:
@@ -33,7 +33,7 @@ async def spam(e):
             else:
                 c = a.first_name
                 username = f"[{c}](tg://user?id={g})"
-                counter = int(TXraid[0])
+                counter = int(txraid[0])
                 for _ in range(counter):
                     reply = random.choice(RAID)
                     caption = f"{username} {reply}"
@@ -50,7 +50,7 @@ async def spam(e):
                 await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ", parse_mode=None, link_preview=None)
             else:
                 c = b.first_name
-                counter = int(TXraid[0])
+                counter = int(txraid[0])
                 username = f"[{c}](tg://user?id={g})"
                 for _ in range(counter):
                     reply = random.choice(RAID)
@@ -98,9 +98,9 @@ async def _(e):
     global que
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}rraid <Username of User>\n  » {hl}rraid <reply to a User>"
     if e.sender_id in SUDO_USERS:
-        TXrr = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        txrr = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 11:
-            message = str(TXrr[0])
+            message = str(txrr[0])
             a = await e.client.get_entity(message)
             user_id = int(a.id)
             if int(user_id) in TOXIC:
@@ -150,10 +150,10 @@ async def _(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐃𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}drraid <Username of User>\n  » {hl}drraid <reply to a User>"
     global que    
     if e.sender_id in SUDO_USERS:
-        TOXX = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        ToxX = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
 
         if len(e.text) > 12:
-            message = str(TOXX[0])
+            message = str(ToxX[0])
             a = await e.client.get_entity(message)
             g = a.id
             try:
@@ -189,15 +189,15 @@ async def _(e):
 async def spam(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗠𝗥𝗮𝗶𝗱\n  » {hl}mraid <count> <Username of User>\n  » {hl}mraid <count> <reply to a User>"
     if e.sender_id in SUDO_USERS:
-        TXmr = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        txmr = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         await e.get_reply_message()
-        if len(TXmr) == 2:
-            message = str(TXmr[1])
+        if len(txmr) == 2:
+            message = str(txmr[1])
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(TXmr[0])
+            counter = int(txmr[0])
             for _ in range(counter):
                 reply = random.choice(MRAID)
                 caption = f"{username} {reply}"
@@ -208,7 +208,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(TXmr[0])
+            counter = int(txmr[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(MRAID)
@@ -232,15 +232,15 @@ async def spam(e):
 async def spam(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗦𝗥𝗮𝗶𝗱\n  » {hl}sraid <count> <Username of User>\n  » {hl}sraid <count> <reply to a User>"
     if e.sender_id in SUDO_USERS:
-        TXsr = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
-        if len(TXsr) == 2:
-            message = str(TXsr[1])
+        txsr = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(txsr) == 2:
+            message = str(txsr[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(TXsr[0])
+            counter = int(txsr[0])
             for _ in range(counter):
                 reply = random.choice(SRAID)
                 caption = f"{username} {reply}"
@@ -251,7 +251,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(TXsr[0])
+            counter = int(txsr[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(SRAID)
@@ -275,15 +275,15 @@ async def spam(e):
 async def spam(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: C𝗥𝗮𝗶𝗱\n  » {hl}craid <count> <Username of User>\n  » {hl}craid <count> <reply to a User>"
     if e.sender_id in SUDO_USERS:
-        TXsr = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        txsr = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         await e.get_reply_message()
-        if len(TXsr) == 2:
-            message = str(TXsr[1])
+        if len(txsr) == 2:
+            message = str(txsr[1])
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(TXsr[0])
+            counter = int(txsr[0])
             for _ in range(counter):
                 reply = random.choice(CRAID)
                 caption = f"{username} {reply}"
@@ -294,7 +294,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(TXsr[0])
+            counter = int(txsr[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(CRAID)
