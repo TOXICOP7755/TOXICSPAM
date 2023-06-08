@@ -120,7 +120,7 @@ async def addsudo(event):
         else:
             newsudo = f"{target}"
         await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `ʀᴇsᴛᴀʀᴛɪɴɢ ʙᴏᴛ...`")
-        heroku_var[mks] = newsudo   
+        heroku_var[TXs] = newsudo   
    
      
 async def get_user(event):
