@@ -1,5 +1,5 @@
 from telethon import events, Button
-from config import TX, TX2, TX3, TX4, TX5, TX6, TX7, TX8, TX9, TX10
+from config import TX1, TX2, TX3, TX4, TX5, TX6, TX7, TX8, TX9, TX10
 from TOXICX.modules.help import *
 import telethon
 
