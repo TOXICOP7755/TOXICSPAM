@@ -38,7 +38,7 @@ DB_URI = config("DATABASE_URL", None)
 SUDO_USERS.append(OWNER_ID)
 
 # Tokens
-TX1 = TelegramClient('TX1', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+TX1 = TelegramClient('TX', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 TX2 = TelegramClient('TX2', API_ID, API_HASH).start(bot_token=BOT_TOKEN2)
 TX3 = TelegramClient('TX3', API_ID, API_HASH).start(bot_token=BOT_TOKEN3)
 TX4 = TelegramClient('TX4', API_ID, API_HASH).start(bot_token=BOT_TOKEN4)
