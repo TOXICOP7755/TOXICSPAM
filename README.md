@@ -9,7 +9,7 @@
 
 <br>
 
-- ⚠️ Do not forget to fork this repo. Else error can occur in deployment.
+- ⚠️ PLEASE FORK THIS REPO AND GIVE A STAR BEFORE DEPLOYING🔥
 
 # ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
