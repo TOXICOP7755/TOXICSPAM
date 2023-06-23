@@ -302,4 +302,4 @@ async def spam(e):
                 await e.client.send_message(e.chat_id, caption)
                 await asyncio.sleep(0.3)
         else:
-            await e.reply(usage, parse_mode=None, link_preview=
+            await e.reply(usage, parse_mode=None, link_preview=None )
