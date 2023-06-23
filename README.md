@@ -5,7 +5,7 @@
 <p align="center"><a href="https://t.me/MERA_JIJA_HAI_TU"><img src="https://graph.org/file/9ba2e1c637ca3d2809769.jpg" width="400"></a></p>
 
 
-> ⭐️ Thanks to everyone for using  TOXIC SPAM BOT, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using  TOXIC SPAM BOT,GO AND FUCK YOUR HATER'S MOTHER AND SISTER 🔥👻😈👅 !
 
 <br>
 
