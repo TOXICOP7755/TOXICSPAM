@@ -23,7 +23,7 @@ async def ping(e):
         TOXIC = await e.reply(f"» #TOXIC_OP_BOLTA", parse_mode=None, link_preview=None)
         end = datetime.now()
         TP = (end - start).microseconds / 1000
-        await TOXIC.edit(f"__🤖 ᴘɪɴɢ__\n» `{TP} ms`")
+        await TOXIC.edit(f"__🤖 𝐏𝐈𝐍𝐆__\n» `{TP} ms`")
 
 
 @TX1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
