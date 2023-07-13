@@ -8,11 +8,11 @@ PythonButton = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
         ],
         [
-        Button.url("• 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🖤 •", "https://t.me/KNOW_UR_JIJA"),
-        Button.url("• 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🖤 •", "https://t.me/TOXIC_X_SUPPORT")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/KNOW_UR_JIJA"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/TOXIC_X_SUPPORT")
         ],
         [
-        Button.url("• 𝐑𝐄𝐏𝐎💫 •", "https://github.com/TOXICOP7755/TOXICSPAM")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/TOXICOP7755/TOXICSPAM")
         ]
         ]
 
@@ -33,8 +33,8 @@ async def start(event):
         ToxBot = await event.client.get_me()
         BotName = ToxBot.first_name
         BotId = ToxBot.id
-        TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [𝐏𝐑𝐈𝐘𝐀𝐍𝐒𝐇𝐔](https://t.me/MERA_JIJA_HAI_TU)**\n\n"
+        TEXT = f"**Hello !! [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nNice To Meet You, Well I Am [{BotName}](tg://user?id={BotId})​**\nA Powerfull Spam Bot.\n\n"
+        TEXT += f"» **𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [PRIYANSHU](https://t.me/MERA_JIJA_HAI_TU)**\n\n"
         TEXT += f"» **𝐁𝐎𝐓 𝐒𝐏𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `M3.2`\n"
         TEXT += f"» **𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
