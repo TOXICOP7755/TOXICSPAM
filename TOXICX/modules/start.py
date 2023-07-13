@@ -34,9 +34,9 @@ async def start(event):
         BotName = ToxBot.first_name
         BotId = ToxBot.id
         TEXT = f"**Hello !! [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nNice To Meet You, Well I Am [{BotName}](tg://user?id={BotId})​**\nA Powerfull Spam Bot.\n\n"
-        TEXT += f"» **𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [PRIYANSHU](https://t.me/MERA_JIJA_HAI_TU)**\n\n"
-        TEXT += f"» **𝐁𝐎𝐓 𝐒𝐏𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `M3.2`\n"
-        TEXT += f"» **𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
+        TEXT += f"» **MY DEVELOPER : [PRIYANSHU](https://t.me/MERA_JIJA_HAI_TU)**\n\n"
+        TEXT += f"» **BOT VERSION :** `M3.2`\n"
+        TEXT += f"» **TELETHON VERSION :** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
                 "https://graph.org/file/9ba2e1c637ca3d2809769.jpg",
