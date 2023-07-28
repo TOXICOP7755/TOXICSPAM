@@ -1,0 +1,5 @@
+build:
+  docker:
+    TOXIC: Dockerfile
+run:
+  TOXIC: python3 -m main.py
